@@ -1,0 +1,185 @@
+error GET /api/v1/campaign/list/NameAndIdById 500 60 - 10.094 ms 
+ReqData{}
+error GET /api/v1/campaign/list/NameAndIdById 500 60 - 4.290 ms 
+ReqData{}
+error POST /api/v1/otp/generate 500 68 - 302.622 ms 
+ReqData{
+  "contactNo": "+917042548391",
+  "role": "Company"
+}
+error POST /api/v1/otp/generate 500 68 - 255.963 ms 
+ReqData{
+  "contactNo": "+917042548391",
+  "role": "Company"
+}
+error POST /api/v1/otp/generate 500 68 - 316.094 ms 
+ReqData{
+  "contactNo": "+917042548391",
+  "role": "Company"
+}
+error GET /api/v1/campaign/list/NameAndIdById 500 60 - 2.213 ms 
+ReqData{}
+error GET /api/v1/campaign/list/NameAndIdById 500 60 - 0.943 ms 
+ReqData{}
+error POST /api/v1/campaign/distanceTravelled 500 128 - 0.729 ms 
+ReqData{
+  "id": "Campaign"
+}
+error POST /api/v1/campaign/distanceTravelled 500 128 - 1.298 ms 
+ReqData{
+  "id": "Campaign"
+}
+error POST /api/v1/campaign/distanceTravelled 500 128 - 1.395 ms 
+ReqData{
+  "id": "Campaign"
+}
+error POST /api/v1/campaign/distanceTravelled 500 128 - 0.826 ms 
+ReqData{
+  "id": "Campaign"
+}
+error POST /api/v1/campaign/distanceTravelled 500 128 - 1.005 ms 
+ReqData{
+  "id": "Campaign"
+}
+error POST /api/v1/campaign/distanceTravelled 500 128 - 1.310 ms 
+ReqData{
+  "id": "Campaign"
+}
+error POST /api/v1/campaign/distanceTravelled 500 128 - 1.224 ms 
+ReqData{
+  "id": "Campaign"
+}
+error POST /api/v1/campaign/distanceTravelled 500 128 - 1.759 ms 
+ReqData{
+  "id": "Campaign"
+}
+error POST /api/v1/campaign/distanceTravelled 500 128 - 1.902 ms 
+ReqData{
+  "id": "Campaign"
+}
+error POST /api/v1/private/update/distance 500 126 - 18812.070 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/campaign/distanceTravelled 500 128 - 1.630 ms 
+ReqData{
+  "id": "Campaign"
+}
+error GET /api/v1/campaign/list/NameAndIdById 500 60 - 1.355 ms 
+ReqData{}
+error POST /api/v1/campaign/distanceTravelled 500 128 - 0.954 ms 
+ReqData{
+  "id": "Campaign"
+}
+error POST /api/v1/private/update/distance 500 126 - 31680.564 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 31668.858 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 31657.740 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 31646.465 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 31634.646 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 31625.701 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 31616.206 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 36052.540 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 36049.568 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 36036.920 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 36026.404 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 36014.172 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 36003.297 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 35996.198 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 38166.906 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 38155.901 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 38143.350 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 38133.095 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 38121.562 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 38111.090 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 38105.822 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 11655.816 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 41480.601 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 41469.600 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 41456.906 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 41445.714 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 41435.760 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}
+error POST /api/v1/private/update/distance 500 126 - 41425.301 ms 
+ReqData{
+  "key": "riueyr8943yhodsf94yhdoch"
+}

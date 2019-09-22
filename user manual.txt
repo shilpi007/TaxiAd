@@ -1,0 +1,11 @@
+-> Open link http://taxiad.herokuapp.com/
+-> click on Admin for admin login
+---> Username : admin@taxiad.com
+---> Password : admin123
+---> Admin can Add Company, Campaign and Driver and also view lists
+-----> Use +91 when adding company in phone numbers
+---> Admin is to accept or reject driver under notification tab (after adding driver)
+-> Company can login by mobile number (ignore +91) and otp
+---> Company can view statistic of campaigns on dashboard
+---> Company can view campaign list under campaign tab and driver list by clicking on the campaign list
+---> Admin can view driver photos by clicking over driver list (curently used dummy data)

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Upload images</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/css/mdb.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.3/js/mdb.min.js"></script>
+</head>
+<body>
+    <form id="file-catcher">
+            <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                    </div>
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="file-input"
+                        aria-describedby="inputGroupFileAddon01" accept="image/*" capture="environment" multiple>
+                      <label class="custom-file-label" for="file-input">Choose file</label>
+                    </div>
+                  </div>
+
+    </form>
+   
+
+    <script>
+(function () {
+	var fileCatcher = document.getElementById('file-catcher');
+  var fileInput = document.getElementById('file-input');
+  var fileListDisplay = document.getElementById('file-list-display');
+  
+  var fileList = [];
+  var renderFileList, sendFile;
+  
+  fileCatcher.addEventListener('submit', function (evnt) {
+  	evnt.preventDefault();
+    fileList.forEach(function (file) {
+    	sendFile(file);
+    });
+  });
+  
+  fileInput.addEventListener('change', function (evnt) {
+ 		fileList = [];
+  	for (var i = 0; i < fileInput.files.length; i++) {
+    	fileList.push(fileInput.files[i]);
+    }
+    renderFileList();
+  });
+  
+  renderFileList = function () {
+  	fileListDisplay.innerHTML = '';
+    fileList.forEach(function (file, index) {
+    	var fileDisplayEl = document.createElement('p');
+      fileDisplayEl.innerHTML = (index + 1) + ': ' + file.name;
+      fileListDisplay.appendChild(fileDisplayEl);
+    });
+  };
+  
+  sendFile = function (file) {
+  	var formData = new FormData();
+    var request = new XMLHttpRequest();
+ 
+    formData.set('file', file);
+    request.open("POST", 'https://jsonplaceholder.typicode.com/photos');
+    request.send(formData);
+  };
+})();
+    </script>
+</body>
+</html>
+
